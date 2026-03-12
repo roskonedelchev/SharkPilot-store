@@ -1,44 +1,49 @@
 [
-  {
-    "id": "autopilot-main-kit",
-    "sku": "SP-001",
-    "category": "autopilots",
-    "price": 160,
-    "currency": "EUR",
-    "unit": "pcs",
-    "stockStatus": "in_stock",
-    "badge": "best_seller",
-    "featured": true,
-    "newProduct": false,
-    "image": "/assets/img/products/autopilot-main-kit.svg",
-    "gallery": [
-      "/assets/img/products/autopilot-main-kit.svg"
-    ],
-    "included": {
-      "bg": [
-        "GPS модул M9",
-        "Кабел за мерене на напрежението на батерията",
-        "2 бр. кабели за свързване на приемника"
-      ],
-      "en": [
-        "GPS M9 module",
-        "Battery voltage measurement cable",
-        "2 receiver connection cables"
-      ]
-    },
-    "labels": {
-      "bg": {
-        "name": "GPS автопилотен комплект Shark Pilot",
-        "shortDescription": "Основен автопилотен комплект за лодка за захранка.",
-        "description": "Комплектът включва платка на автопилота в 3D принтирана кутийка и основните свързващи компоненти за монтаж. Това е основният продукт в магазина и е подходящ за изграждане или надграждане на лодка за захранка с GPS автопилот."
-      },
-      "en": {
-        "name": "Shark Pilot GPS Autopilot Kit",
-        "shortDescription": "Main autopilot kit for a bait boat.",
-        "description": "The kit includes the autopilot board in a 3D-printed enclosure and the key connection parts needed for installation. This is the main product in the store and is suitable for building or upgrading a bait boat with GPS autopilot."
-      }
-    }
+{
+  "id": "autopilot-main-kit",
+  "sku": "SP-001",
+  "category": "autopilots",
+  "price": 160,
+  "currency": "EUR",
+  "unit": "pcs",
+  "stockStatus": "in_stock",
+  "badge": "best_seller",
+  "featured": true,
+  "newProduct": false,
+  "image": "/assets/img/products/autopilot-main-kit-1.jpg",
+  "gallery": [
+    "/assets/img/products/autopilot-main-kit-1.jpg",
+    "/assets/img/products/autopilot-main-kit-2.jpg",
+    "/assets/img/products/autopilot-main-kit-3.jpg"
+  ],
+  "video": {
+    "url": "https://www.youtube.com/embed/BB8i5yuWDIE"
   },
+  "included": {
+    "bg": [
+      "GPS модул M9",
+      "Кабел за мерене на напрежението на батерията",
+      "2 бр. кабели за свързване на приемника"
+    ],
+    "en": [
+      "GPS M9 module",
+      "Battery voltage measurement cable",
+      "2 receiver connection cables"
+    ]
+  },
+  "labels": {
+    "bg": {
+      "name": "GPS автопилотен комплект Shark Pilot",
+      "shortDescription": "Основен автопилотен комплект за лодка за захранка.",
+      "description": "Комплектът включва платка на автопилота в 3D принтирана кутийка и основните свързващи компоненти за монтаж."
+    },
+    "en": {
+      "name": "Shark Pilot GPS Autopilot Kit",
+      "shortDescription": "Main autopilot kit for a bait boat.",
+      "description": "The kit includes the autopilot board in a 3D-printed enclosure and the key connection parts needed for installation."
+    }
+  }
+},
   {
     "id": "temperature-sensor",
     "sku": "SP-101",
