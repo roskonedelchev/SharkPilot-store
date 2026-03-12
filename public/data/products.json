@@ -1,49 +1,49 @@
 [
-{
-  "id": "autopilot-main-kit",
-  "sku": "SP-001",
-  "category": "autopilots",
-  "price": 160,
-  "currency": "EUR",
-  "unit": "pcs",
-  "stockStatus": "in_stock",
-  "badge": "best_seller",
-  "featured": true,
-  "newProduct": false,
-  "image": "/assets/img/products/autopilot-main-kit-1.jpg",
-  "gallery": [
-    "/assets/img/products/autopilot-main-kit-1.jpg",
-    "/assets/img/products/autopilot-main-kit-2.jpg",
-    "/assets/img/products/autopilot-main-kit-3.jpg"
-  ],
-  "video": {
-    "url": "https://www.youtube.com/embed/BB8i5yuWDIE"
-  },
-  "included": {
-    "bg": [
-      "GPS модул M9",
-      "Кабел за мерене на напрежението на батерията",
-      "2 бр. кабели за свързване на приемника"
+  {
+    "id": "autopilot-main-kit",
+    "sku": "SP-001",
+    "category": "autopilots",
+    "price": 160,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/autopilot-main-kit-1.jpg",
+    "gallery": [
+      "/assets/img/products/autopilot-main-kit-1.jpg",
+      "/assets/img/products/autopilot-main-kit-2.jpg",
+      "/assets/img/products/autopilot-main-kit-3.jpg"
     ],
-    "en": [
-      "GPS M9 module",
-      "Battery voltage measurement cable",
-      "2 receiver connection cables"
-    ]
-  },
-  "labels": {
-    "bg": {
-      "name": "GPS автопилотен комплект Shark Pilot",
-      "shortDescription": "Основен автопилотен комплект за лодка за захранка.",
-      "description": "Комплектът включва платка на автопилота в 3D принтирана кутийка и основните свързващи компоненти за монтаж."
+    "video": {
+      "url": "https://www.youtube.com/embed/BB8i5yuWDIE"
     },
-    "en": {
-      "name": "Shark Pilot GPS Autopilot Kit",
-      "shortDescription": "Main autopilot kit for a bait boat.",
-      "description": "The kit includes the autopilot board in a 3D-printed enclosure and the key connection parts needed for installation."
+    "included": {
+      "bg": [
+        "GPS модул M9",
+        "Кабел за мерене на напрежението на батерията",
+        "2 бр. кабели за свързване на приемника"
+      ],
+      "en": [
+        "GPS M9 module",
+        "Battery voltage measurement cable",
+        "2 receiver connection cables"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "GPS автопилотен комплект Shark Pilot",
+        "shortDescription": "Основен автопилотен комплект за лодка за захранка.",
+        "description": "Комплектът включва платка на автопилота в 3D принтирана кутийка и основните свързващи компоненти за монтаж."
+      },
+      "en": {
+        "name": "Shark Pilot GPS Autopilot Kit",
+        "shortDescription": "Main autopilot kit for a bait boat.",
+        "description": "The kit includes the autopilot board in a 3D-printed enclosure and the key connection parts needed for installation."
+      }
     }
-  }
-},
+  },
   {
     "id": "temperature-sensor",
     "sku": "SP-101",
@@ -52,7 +52,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "new",
+    "badge": "none",
     "featured": true,
     "newProduct": true,
     "image": "/assets/img/products/temperature-sensor.svg",
@@ -74,6 +74,9 @@
         "shortDescription": "Compact temperature sensor for the Shark Pilot system.",
         "description": "Temperature sensor for monitoring temperature inside the boat or inside a specific module. Suitable for integration with the autopilot system."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -83,7 +86,7 @@
     "price": 3,
     "currency": "EUR",
     "unit": "pcs",
-    "stockStatus": "on_request",
+    "stockStatus": "in_stock",
     "badge": "none",
     "featured": false,
     "newProduct": false,
@@ -106,6 +109,9 @@
         "shortDescription": "Sensor for water detection inside the boat.",
         "description": "Sensor for detecting water inside the hull of the boat. Useful for additional protection and alarm logic."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -116,7 +122,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "best_seller",
+    "badge": "none",
     "featured": true,
     "newProduct": false,
     "image": "/assets/img/products/depth-sensor-ajsr04m.svg",
@@ -142,6 +148,9 @@
         "shortDescription": "Ultrasonic sensor for depth measurement.",
         "description": "AJ-SR04M depth sensor suitable for integration with Shark Pilot. Includes a connection cable."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -151,8 +160,8 @@
     "price": 10,
     "currency": "EUR",
     "unit": "pcs",
-    "stockStatus": "on_request",
-    "badge": "new",
+    "stockStatus": "in_stock",
+    "badge": "none",
     "featured": false,
     "newProduct": true,
     "image": "/assets/img/products/current-sensor-acs758.svg",
@@ -178,6 +187,9 @@
         "shortDescription": "Sensor for measuring current consumption.",
         "description": "ACS758LCB-050B sensor for monitoring current consumption in the system. Suitable for telemetry and protection logic. Includes a connection cable."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -188,7 +200,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "new",
+    "badge": "none",
     "featured": true,
     "newProduct": true,
     "image": "/assets/img/products/delayed-start-button.svg",
@@ -214,6 +226,9 @@
         "shortDescription": "Capacitive button for activating delayed autopilot start.",
         "description": "Capacitive touch button used to activate boat departure to a point in autopilot mode. The button is mounted on the inner side of the hull."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -224,7 +239,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "best_seller",
+    "badge": "none",
     "featured": true,
     "newProduct": false,
     "image": "/assets/img/products/dual-channel-transistor-switch.svg",
@@ -250,6 +265,9 @@
         "shortDescription": "Switch for heavy loads up to 10A.",
         "description": "Dual-channel transistor switch with 2 built-in fuses for overload and short-circuit protection. Suitable for electromagnets and other heavy loads up to 10A."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -259,7 +277,7 @@
     "price": 20,
     "currency": "EUR",
     "unit": "pcs",
-    "stockStatus": "on_request",
+    "stockStatus": "in_stock",
     "badge": "none",
     "featured": false,
     "newProduct": false,
@@ -288,6 +306,9 @@
         "shortDescription": "Switch for cutting power to the boat.",
         "description": "Single-channel 20A transistor switch with 2 built-in fuses for overload and short-circuit protection, plus a 16 mm switch. Suitable for cutting power to the boat."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -298,7 +319,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "new",
+    "badge": "none",
     "featured": false,
     "newProduct": true,
     "image": "/assets/img/products/single-channel-switch-a.svg",
@@ -320,6 +341,9 @@
         "shortDescription": "Suitable for heavy loads up to 5A.",
         "description": "Single-channel transistor switch suitable for powering heavy loads up to 5A."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -329,7 +353,7 @@
     "price": 5,
     "currency": "EUR",
     "unit": "pcs",
-    "stockStatus": "on_request",
+    "stockStatus": "in_stock",
     "badge": "none",
     "featured": false,
     "newProduct": false,
@@ -352,6 +376,9 @@
         "shortDescription": "Suitable for heavy loads up to 5A.",
         "description": "Second single-channel transistor switch variant suitable for powering heavy loads up to 5A."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -362,7 +389,7 @@
     "currency": "EUR",
     "unit": "m",
     "stockStatus": "in_stock",
-    "badge": "best_seller",
+    "badge": "none",
     "featured": true,
     "newProduct": false,
     "image": "/assets/img/products/led-strip-60.svg",
@@ -384,6 +411,9 @@
         "shortDescription": "18W/m, current draw 1.5A.",
         "description": "LED strip with 60 LEDs per meter. Power 18W per meter and current draw 1.5A. Quantity is measured in meters."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -394,7 +424,7 @@
     "currency": "EUR",
     "unit": "m",
     "stockStatus": "on_request",
-    "badge": "new",
+    "badge": "none",
     "featured": false,
     "newProduct": true,
     "image": "/assets/img/products/led-strip-144.svg",
@@ -416,6 +446,9 @@
         "shortDescription": "34W/m, current draw 2.83A.",
         "description": "LED strip with 144 LEDs per meter. Power 34W per meter and current draw 2.83A. Quantity is measured in meters."
       }
+    },
+    "video": {
+      "url": ""
     }
   },
   {
@@ -426,7 +459,7 @@
     "currency": "EUR",
     "unit": "pcs",
     "stockStatus": "in_stock",
-    "badge": "best_seller",
+    "badge": "none",
     "featured": true,
     "newProduct": false,
     "image": "/assets/img/products/oled-display.svg",
@@ -448,6 +481,9 @@
         "shortDescription": "Display for battery level and useful system data.",
         "description": "OLED display for showing battery level and other useful information from the Shark Pilot system."
       }
+    },
+    "video": {
+      "url": ""
     }
   }
 ]
