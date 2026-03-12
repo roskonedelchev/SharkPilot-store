@@ -423,7 +423,7 @@
     "price": 14,
     "currency": "EUR",
     "unit": "m",
-    "stockStatus": "on_request",
+    "stockStatus": "in_stock",
     "badge": "none",
     "featured": false,
     "newProduct": true,
