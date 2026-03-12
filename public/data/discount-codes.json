@@ -1,0 +1,52 @@
+[
+  {
+    "code": "SHARK10",
+    "percent": 10,
+    "active": true
+  },
+  {
+    "code": "PILOT12",
+    "percent": 12,
+    "active": true
+  },
+  {
+    "code": "NAVI14",
+    "percent": 14,
+    "active": true
+  },
+  {
+    "code": "GPS15",
+    "percent": 15,
+    "active": true
+  },
+  {
+    "code": "CAPTAIN16",
+    "percent": 16,
+    "active": true
+  },
+  {
+    "code": "BAIT17",
+    "percent": 17,
+    "active": true
+  },
+  {
+    "code": "RUDDER18",
+    "percent": 18,
+    "active": true
+  },
+  {
+    "code": "SONAR19",
+    "percent": 19,
+    "active": true
+  },
+  {
+    "code": "SHARKPRO20",
+    "percent": 20,
+    "active": true
+  },
+  {
+    "code": "STORE11",
+    "percent": 11,
+    "active": true
+  }
+]

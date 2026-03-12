@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SharkPilot Store · Магазин</title>
+  <meta name="description" content="SharkPilot Store - магазин">
+  <link rel="icon" href="../assets/img/products/favicon-shark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  
+<main class="section">
+  <div class="container stack">
+    <div>
+      <h1 class="section-title">Магазин</h1>
+      <p class="section-subtitle">Избери продукти, филтрирай по категория и добавяй към количката.</p>
+    </div>
+
+    <section class="panel stack">
+      <div class="filters">
+        <div class="field">
+          <label for="search-input">Търсене</label>
+          <input id="search-input" class="input" type="search" placeholder="Търси по име или описание...">
+        </div>
+        <div class="field">
+          <label for="category-filter">Категория</label>
+          <select id="category-filter" class="select">
+            <option value="all">Всички категории</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="stock-filter">Наличност</label>
+          <select id="stock-filter" class="select">
+            <option value="all">Всички</option>
+            <option value="in_stock">В наличност</option>
+            <option value="on_request">По заявка</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="badge-filter">Badge</label>
+          <select id="badge-filter" class="select">
+            <option value="all">Всички</option>
+            <option value="new">New</option>
+            <option value="best_seller">Best seller</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <div id="store-empty" class="store-empty" hidden>Няма намерени продукти по избраните критерии.</div>
+    <div id="store-grid" class="product-grid"></div>
+  </div>
+</main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="site-toast" class="toast" aria-live="polite"></div>
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/data.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+  <script defer src="../assets/js/ui.js"></script>
+  <script defer src="../assets/js/discounts.js"></script>
+  <script defer src="../assets/js/store.js"></script>
+</body>
+</html>

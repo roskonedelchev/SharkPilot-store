@@ -1,0 +1,28 @@
+{
+  "store": {
+    "name": "SharkPilot Store",
+    "defaultLanguage": "bg",
+    "currency": "EUR",
+    "orderEmail": "roskonedelchev@gmail.com"
+  },
+  "discounts": {
+    "countDiscount": {
+      "enabled": true,
+      "minItems": 3,
+      "percent": 5
+    },
+    "sumDiscount": {
+      "enabled": true,
+      "minAmount": 200,
+      "percent": 10
+    },
+    "discountCodePriority": true
+  },
+  "variantC": {
+    "enabled": true,
+    "notice": {
+      "bg": "Това е временен вариант за заявка без автоматично изпращане от сайта. Можеш да копираш текста или да го изпратиш чрез имейл клиента си.",
+      "en": "This is a temporary order flow without automatic sending from the site. You can copy the text or send it through your email client."
+    }
+  }
+}

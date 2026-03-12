@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SharkPilot Store · Количка</title>
+  <meta name="description" content="SharkPilot Store - количка">
+  <link rel="icon" href="../assets/img/products/favicon-shark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  
+<main class="section">
+  <div class="container stack" id="cart-page">
+    <div>
+      <h1 class="section-title">Количка и заявка</h1>
+      <p class="section-subtitle">Временен вариант C: сайтът генерира готова заявка за копиране или изпращане чрез имейл клиент.</p>
+    </div>
+
+    <div id="cart-empty" class="empty-state" hidden>
+      <p>Количката е празна.</p>
+      <a class="btn btn--accent" href="./store.html">Към магазина</a>
+    </div>
+
+    <div id="cart-full" class="cart-layout" hidden>
+      <section class="cart-box stack">
+        <div id="cart-items" class="stack"></div>
+
+        <div class="actions-row">
+          <button id="clear-cart" class="btn btn--ghost" type="button">Изчисти количката</button>
+          <a class="btn btn--ghost" href="./store.html">Продължи пазаруването</a>
+        </div>
+      </section>
+
+      <aside class="cart-box stack">
+        <div class="field">
+          <label for="discount-code">Код за отстъпка</label>
+          <div class="actions-row">
+            <input id="discount-code" class="input" type="text" placeholder="Напр. SHARK10">
+            <button id="apply-code" class="btn btn--accent" type="button">Приложи код</button>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="summary-line"><span>Междинна сума</span><strong id="subtotal-value">€0.00</strong></div>
+          <div class="summary-line"><span>Отстъпка</span><strong id="discount-value">—</strong></div>
+          <div class="summary-line summary-line--total"><span>Крайна сума</span><strong id="total-value">€0.00</strong></div>
+        </div>
+
+        <div class="notice">
+          <strong>Временен начин за заявка</strong>
+          <div id="temporary-notice-text"></div>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.3rem;margin-top:4px">Данни за заявката</h2>
+        <form id="order-form" class="form-grid" onsubmit="return false;">
+          <div class="field">
+            <label for="order-name">Име *</label>
+            <input id="order-name" name="name" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-phone">Телефон *</label>
+            <input id="order-phone" name="phone" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-email">Имейл</label>
+            <input id="order-email" name="email" class="input">
+          </div>
+          <div class="field">
+            <label for="order-delivery">Държава / град / офис за доставка *</label>
+            <input id="order-delivery" name="delivery" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-note">Бележка</label>
+            <textarea id="order-note" name="note" class="textarea"></textarea>
+          </div>
+        </form>
+
+        <div class="field">
+          <label for="order-preview-text">Преглед на заявката</label>
+          <textarea id="order-preview-text" class="preview-box" readonly></textarea>
+        </div>
+
+        <div class="actions-row">
+          <button id="copy-order" class="btn btn--accent" type="button">Копирай заявката</button>
+          <button id="email-order" class="btn btn--ghost" type="button">Отвори имейл клиента</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="site-toast" class="toast" aria-live="polite"></div>
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/data.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+  <script defer src="../assets/js/ui.js"></script>
+  <script defer src="../assets/js/discounts.js"></script>
+  <script defer src="../assets/js/cart.js"></script>
+</body>
+</html>

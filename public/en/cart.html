@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SharkPilot Store · Cart</title>
+  <meta name="description" content="SharkPilot Store - cart">
+  <link rel="icon" href="../assets/img/products/favicon-shark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  
+<main class="section">
+  <div class="container stack" id="cart-page">
+    <div>
+      <h1 class="section-title">Cart and order request</h1>
+      <p class="section-subtitle">Temporary variant C: the site generates a ready order request for copying or sending via your email client.</p>
+    </div>
+
+    <div id="cart-empty" class="empty-state" hidden>
+      <p>Your cart is empty.</p>
+      <a class="btn btn--accent" href="./store.html">Go to store</a>
+    </div>
+
+    <div id="cart-full" class="cart-layout" hidden>
+      <section class="cart-box stack">
+        <div id="cart-items" class="stack"></div>
+
+        <div class="actions-row">
+          <button id="clear-cart" class="btn btn--ghost" type="button">Clear cart</button>
+          <a class="btn btn--ghost" href="./store.html">Continue shopping</a>
+        </div>
+      </section>
+
+      <aside class="cart-box stack">
+        <div class="field">
+          <label for="discount-code">Discount code</label>
+          <div class="actions-row">
+            <input id="discount-code" class="input" type="text" placeholder="e.g. SHARK10">
+            <button id="apply-code" class="btn btn--accent" type="button">Apply code</button>
+          </div>
+        </div>
+
+        <div class="stack">
+          <div class="summary-line"><span>Subtotal</span><strong id="subtotal-value">€0.00</strong></div>
+          <div class="summary-line"><span>Discount</span><strong id="discount-value">—</strong></div>
+          <div class="summary-line summary-line--total"><span>Final total</span><strong id="total-value">€0.00</strong></div>
+        </div>
+
+        <div class="notice">
+          <strong>Temporary order flow</strong>
+          <div id="temporary-notice-text"></div>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.3rem;margin-top:4px">Order details</h2>
+        <form id="order-form" class="form-grid" onsubmit="return false;">
+          <div class="field">
+            <label for="order-name">Name *</label>
+            <input id="order-name" name="name" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-phone">Phone *</label>
+            <input id="order-phone" name="phone" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-email">Email</label>
+            <input id="order-email" name="email" class="input">
+          </div>
+          <div class="field">
+            <label for="order-delivery">Country / city / office for delivery *</label>
+            <input id="order-delivery" name="delivery" class="input" data-required>
+          </div>
+          <div class="field">
+            <label for="order-note">Note</label>
+            <textarea id="order-note" name="note" class="textarea"></textarea>
+          </div>
+        </form>
+
+        <div class="field">
+          <label for="order-preview-text">Order preview</label>
+          <textarea id="order-preview-text" class="preview-box" readonly></textarea>
+        </div>
+
+        <div class="actions-row">
+          <button id="copy-order" class="btn btn--accent" type="button">Copy order</button>
+          <button id="email-order" class="btn btn--ghost" type="button">Open email client</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="site-toast" class="toast" aria-live="polite"></div>
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/data.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+  <script defer src="../assets/js/ui.js"></script>
+  <script defer src="../assets/js/discounts.js"></script>
+  <script defer src="../assets/js/cart.js"></script>
+</body>
+</html>

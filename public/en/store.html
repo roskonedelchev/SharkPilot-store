@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SharkPilot Store · Store</title>
+  <meta name="description" content="SharkPilot Store - store">
+  <link rel="icon" href="../assets/img/products/favicon-shark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  
+<main class="section">
+  <div class="container stack">
+    <div>
+      <h1 class="section-title">Store</h1>
+      <p class="section-subtitle">Pick products, filter by category and add them to the cart.</p>
+    </div>
+
+    <section class="panel stack">
+      <div class="filters">
+        <div class="field">
+          <label for="search-input">Search</label>
+          <input id="search-input" class="input" type="search" placeholder="Search by name or description...">
+        </div>
+        <div class="field">
+          <label for="category-filter">Category</label>
+          <select id="category-filter" class="select">
+            <option value="all">All categories</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="stock-filter">Stock</label>
+          <select id="stock-filter" class="select">
+            <option value="all">All</option>
+            <option value="in_stock">In stock</option>
+            <option value="on_request">On request</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="badge-filter">Badge</label>
+          <select id="badge-filter" class="select">
+            <option value="all">All</option>
+            <option value="new">New</option>
+            <option value="best_seller">Best seller</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <div id="store-empty" class="store-empty" hidden>No products match the current filters.</div>
+    <div id="store-grid" class="product-grid"></div>
+  </div>
+</main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="site-toast" class="toast" aria-live="polite"></div>
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/data.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+  <script defer src="../assets/js/ui.js"></script>
+  <script defer src="../assets/js/discounts.js"></script>
+  <script defer src="../assets/js/store.js"></script>
+</body>
+</html>

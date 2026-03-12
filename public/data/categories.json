@@ -1,0 +1,44 @@
+[
+  {
+    "id": "autopilots",
+    "labels": {
+      "bg": "Автопилоти",
+      "en": "Autopilots"
+    }
+  },
+  {
+    "id": "sensors",
+    "labels": {
+      "bg": "Сензори",
+      "en": "Sensors"
+    }
+  },
+  {
+    "id": "buttons",
+    "labels": {
+      "bg": "Бутони",
+      "en": "Buttons"
+    }
+  },
+  {
+    "id": "switches",
+    "labels": {
+      "bg": "Ключове",
+      "en": "Switches"
+    }
+  },
+  {
+    "id": "led-strips",
+    "labels": {
+      "bg": "LED ленти",
+      "en": "LED Strips"
+    }
+  },
+  {
+    "id": "displays",
+    "labels": {
+      "bg": "Дисплеи",
+      "en": "Displays"
+    }
+  }
+]

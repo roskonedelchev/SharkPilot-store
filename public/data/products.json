@@ -1,0 +1,448 @@
+[
+  {
+    "id": "autopilot-main-kit",
+    "sku": "SP-001",
+    "category": "autopilots",
+    "price": 160,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/autopilot-main-kit.svg",
+    "gallery": [
+      "/assets/img/products/autopilot-main-kit.svg"
+    ],
+    "included": {
+      "bg": [
+        "GPS модул M9",
+        "Кабел за мерене на напрежението на батерията",
+        "2 бр. кабели за свързване на приемника"
+      ],
+      "en": [
+        "GPS M9 module",
+        "Battery voltage measurement cable",
+        "2 receiver connection cables"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "GPS автопилотен комплект Shark Pilot",
+        "shortDescription": "Основен автопилотен комплект за лодка за захранка.",
+        "description": "Комплектът включва платка на автопилота в 3D принтирана кутийка и основните свързващи компоненти за монтаж. Това е основният продукт в магазина и е подходящ за изграждане или надграждане на лодка за захранка с GPS автопилот."
+      },
+      "en": {
+        "name": "Shark Pilot GPS Autopilot Kit",
+        "shortDescription": "Main autopilot kit for a bait boat.",
+        "description": "The kit includes the autopilot board in a 3D-printed enclosure and the key connection parts needed for installation. This is the main product in the store and is suitable for building or upgrading a bait boat with GPS autopilot."
+      }
+    }
+  },
+  {
+    "id": "temperature-sensor",
+    "sku": "SP-101",
+    "category": "sensors",
+    "price": 3,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "new",
+    "featured": true,
+    "newProduct": true,
+    "image": "/assets/img/products/temperature-sensor.svg",
+    "gallery": [
+      "/assets/img/products/temperature-sensor.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "Сензор за измерване на температура",
+        "shortDescription": "Компактен температурен сензор за системата Shark Pilot.",
+        "description": "Температурен сензор за следене на температурата в лодката или в конкретен модул. Подходящ за интеграция с автопилотната система."
+      },
+      "en": {
+        "name": "Temperature Sensor",
+        "shortDescription": "Compact temperature sensor for the Shark Pilot system.",
+        "description": "Temperature sensor for monitoring temperature inside the boat or inside a specific module. Suitable for integration with the autopilot system."
+      }
+    }
+  },
+  {
+    "id": "water-presence-sensor",
+    "sku": "SP-102",
+    "category": "sensors",
+    "price": 3,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "on_request",
+    "badge": "none",
+    "featured": false,
+    "newProduct": false,
+    "image": "/assets/img/products/water-presence-sensor.svg",
+    "gallery": [
+      "/assets/img/products/water-presence-sensor.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "Сензор за наличие на вода в лодката",
+        "shortDescription": "Сензор за известяване при наличие на вода.",
+        "description": "Сензор за наличие на вода в корпуса на лодката. Полезен за допълнителна защита и алармиране при проблем."
+      },
+      "en": {
+        "name": "Water Presence Sensor",
+        "shortDescription": "Sensor for water detection inside the boat.",
+        "description": "Sensor for detecting water inside the hull of the boat. Useful for additional protection and alarm logic."
+      }
+    }
+  },
+  {
+    "id": "depth-sensor-ajsr04m",
+    "sku": "SP-103",
+    "category": "sensors",
+    "price": 10,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/depth-sensor-ajsr04m.svg",
+    "gallery": [
+      "/assets/img/products/depth-sensor-ajsr04m.svg"
+    ],
+    "included": {
+      "bg": [
+        "Кабел за свързване"
+      ],
+      "en": [
+        "Connection cable"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "Сензор за измерване на дълбочина AJ-SR04M",
+        "shortDescription": "Ултразвуков сензор за измерване на дълбочина.",
+        "description": "Сензор AJ-SR04M за измерване на дълбочина, подходящ за интеграция към Shark Pilot. Включва кабел за свързване."
+      },
+      "en": {
+        "name": "AJ-SR04M Depth Sensor",
+        "shortDescription": "Ultrasonic sensor for depth measurement.",
+        "description": "AJ-SR04M depth sensor suitable for integration with Shark Pilot. Includes a connection cable."
+      }
+    }
+  },
+  {
+    "id": "current-sensor-acs758",
+    "sku": "SP-104",
+    "category": "sensors",
+    "price": 10,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "on_request",
+    "badge": "new",
+    "featured": false,
+    "newProduct": true,
+    "image": "/assets/img/products/current-sensor-acs758.svg",
+    "gallery": [
+      "/assets/img/products/current-sensor-acs758.svg"
+    ],
+    "included": {
+      "bg": [
+        "Кабел за свързване"
+      ],
+      "en": [
+        "Connection cable"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "Сензор за измерване консумацията на ток ACS758LCB-050B",
+        "shortDescription": "Сензор за измерване на консумацията на ток.",
+        "description": "Сензор ACS758LCB-050B за следене на консумацията на ток в системата. Подходящ за телеметрия и защити. Включва кабел за свързване."
+      },
+      "en": {
+        "name": "ACS758LCB-050B Current Sensor",
+        "shortDescription": "Sensor for measuring current consumption.",
+        "description": "ACS758LCB-050B sensor for monitoring current consumption in the system. Suitable for telemetry and protection logic. Includes a connection cable."
+      }
+    }
+  },
+  {
+    "id": "delayed-start-button",
+    "sku": "SP-201",
+    "category": "buttons",
+    "price": 5,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "new",
+    "featured": true,
+    "newProduct": true,
+    "image": "/assets/img/products/delayed-start-button.svg",
+    "gallery": [
+      "/assets/img/products/delayed-start-button.svg"
+    ],
+    "included": {
+      "bg": [
+        "Лепенка за външен монтаж"
+      ],
+      "en": [
+        "Outer sticker for mounting"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "Бутон за отложен старт",
+        "shortDescription": "Капацитивен бутон за активиране на автопилотен старт.",
+        "description": "Капацитивен сензорен бутон, чрез който от лодката се активира тръгването към точка в режим на автопилот. Бутонът се залепя от вътрешната страна на корпуса."
+      },
+      "en": {
+        "name": "Delayed Start Button",
+        "shortDescription": "Capacitive button for activating delayed autopilot start.",
+        "description": "Capacitive touch button used to activate boat departure to a point in autopilot mode. The button is mounted on the inner side of the hull."
+      }
+    }
+  },
+  {
+    "id": "dual-channel-transistor-switch",
+    "sku": "SP-301",
+    "category": "switches",
+    "price": 15,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/dual-channel-transistor-switch.svg",
+    "gallery": [
+      "/assets/img/products/dual-channel-transistor-switch.svg"
+    ],
+    "included": {
+      "bg": [
+        "Вградени 2 бр. предпазители"
+      ],
+      "en": [
+        "Built-in 2 fuses"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "Двуканален транзисторен ключ",
+        "shortDescription": "Ключ за мощни консуматори до 10A.",
+        "description": "Двуканален транзисторен ключ с вградени 2 бр. предпазители, против претоварване и късо съединение. Подходящ за електромагнити и други мощни консуматори до 10A."
+      },
+      "en": {
+        "name": "Dual-Channel Transistor Switch",
+        "shortDescription": "Switch for heavy loads up to 10A.",
+        "description": "Dual-channel transistor switch with 2 built-in fuses for overload and short-circuit protection. Suitable for electromagnets and other heavy loads up to 10A."
+      }
+    }
+  },
+  {
+    "id": "single-channel-20a-switch",
+    "sku": "SP-302",
+    "category": "switches",
+    "price": 20,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "on_request",
+    "badge": "none",
+    "featured": false,
+    "newProduct": false,
+    "image": "/assets/img/products/single-channel-20a-switch.svg",
+    "gallery": [
+      "/assets/img/products/single-channel-20a-switch.svg"
+    ],
+    "included": {
+      "bg": [
+        "Вграден ключ 16 мм",
+        "Вградени 2 бр. предпазители"
+      ],
+      "en": [
+        "Integrated 16 mm switch",
+        "Built-in 2 fuses"
+      ]
+    },
+    "labels": {
+      "bg": {
+        "name": "Едноканален 20A транзисторен ключ + ключ 16 мм",
+        "shortDescription": "Ключ за прекъсване захранването на лодката.",
+        "description": "Едноканален 20A транзисторен ключ с вградени 2 бр. предпазители, против претоварване и късо съединение, плюс ключ 16 мм. Подходящ за прекъсване захранването на лодката."
+      },
+      "en": {
+        "name": "Single-Channel 20A Switch + 16 mm Switch",
+        "shortDescription": "Switch for cutting power to the boat.",
+        "description": "Single-channel 20A transistor switch with 2 built-in fuses for overload and short-circuit protection, plus a 16 mm switch. Suitable for cutting power to the boat."
+      }
+    }
+  },
+  {
+    "id": "single-channel-switch-a",
+    "sku": "SP-303A",
+    "category": "switches",
+    "price": 5,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "new",
+    "featured": false,
+    "newProduct": true,
+    "image": "/assets/img/products/single-channel-switch-a.svg",
+    "gallery": [
+      "/assets/img/products/single-channel-switch-a.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "Едноканален транзисторен ключ A",
+        "shortDescription": "Подходящ за мощни консуматори до 5A.",
+        "description": "Едноканален транзисторен ключ, подходящ за захранване на мощни консуматори до 5A."
+      },
+      "en": {
+        "name": "Single-Channel Transistor Switch A",
+        "shortDescription": "Suitable for heavy loads up to 5A.",
+        "description": "Single-channel transistor switch suitable for powering heavy loads up to 5A."
+      }
+    }
+  },
+  {
+    "id": "single-channel-switch-b",
+    "sku": "SP-303B",
+    "category": "switches",
+    "price": 5,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "on_request",
+    "badge": "none",
+    "featured": false,
+    "newProduct": false,
+    "image": "/assets/img/products/single-channel-switch-b.svg",
+    "gallery": [
+      "/assets/img/products/single-channel-switch-b.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "Едноканален транзисторен ключ B",
+        "shortDescription": "Подходящ за мощни консуматори до 5A.",
+        "description": "Втори вариант на едноканален транзисторен ключ, подходящ за захранване на мощни консуматори до 5A."
+      },
+      "en": {
+        "name": "Single-Channel Transistor Switch B",
+        "shortDescription": "Suitable for heavy loads up to 5A.",
+        "description": "Second single-channel transistor switch variant suitable for powering heavy loads up to 5A."
+      }
+    }
+  },
+  {
+    "id": "led-strip-60",
+    "sku": "SP-401",
+    "category": "led-strips",
+    "price": 9,
+    "currency": "EUR",
+    "unit": "m",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/led-strip-60.svg",
+    "gallery": [
+      "/assets/img/products/led-strip-60.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "LED лента 60 LED / m",
+        "shortDescription": "18W/m, консумация 1.5A.",
+        "description": "LED лента с 60 диода на метър. Мощност 18W на метър и консумация 1.5A. Количеството се измерва в метри."
+      },
+      "en": {
+        "name": "LED Strip 60 LED / m",
+        "shortDescription": "18W/m, current draw 1.5A.",
+        "description": "LED strip with 60 LEDs per meter. Power 18W per meter and current draw 1.5A. Quantity is measured in meters."
+      }
+    }
+  },
+  {
+    "id": "led-strip-144",
+    "sku": "SP-402",
+    "category": "led-strips",
+    "price": 14,
+    "currency": "EUR",
+    "unit": "m",
+    "stockStatus": "on_request",
+    "badge": "new",
+    "featured": false,
+    "newProduct": true,
+    "image": "/assets/img/products/led-strip-144.svg",
+    "gallery": [
+      "/assets/img/products/led-strip-144.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "LED лента 144 LED / m",
+        "shortDescription": "34W/m, консумация 2.83A.",
+        "description": "LED лента с 144 диода на метър. Мощност 34W на метър и консумация 2.83A. Количеството се измерва в метри."
+      },
+      "en": {
+        "name": "LED Strip 144 LED / m",
+        "shortDescription": "34W/m, current draw 2.83A.",
+        "description": "LED strip with 144 LEDs per meter. Power 34W per meter and current draw 2.83A. Quantity is measured in meters."
+      }
+    }
+  },
+  {
+    "id": "oled-display",
+    "sku": "SP-501",
+    "category": "displays",
+    "price": 20,
+    "currency": "EUR",
+    "unit": "pcs",
+    "stockStatus": "in_stock",
+    "badge": "best_seller",
+    "featured": true,
+    "newProduct": false,
+    "image": "/assets/img/products/oled-display.svg",
+    "gallery": [
+      "/assets/img/products/oled-display.svg"
+    ],
+    "included": {
+      "bg": [],
+      "en": []
+    },
+    "labels": {
+      "bg": {
+        "name": "OLED дисплей",
+        "shortDescription": "Дисплей за заряд на батерията и полезна информация.",
+        "description": "OLED дисплей за показване заряда на батерията и друга полезна информация от системата Shark Pilot."
+      },
+      "en": {
+        "name": "OLED Display",
+        "shortDescription": "Display for battery level and useful system data.",
+        "description": "OLED display for showing battery level and other useful information from the Shark Pilot system."
+      }
+    }
+  }
+]
