@@ -41,11 +41,14 @@
 
 Можеш и просто да замениш файл със същото име.
 
-## Статуси 
+## Статуси: 
     "stockStatus": "in_stock", "on_request",
     "badge": "best_seller", "new", "none",
     "featured": true, false,
     "newProduct": true, false,
+
+## Отстъпки:
+SHARK10 - 10%, STORE11 - 11%, PILOT12, - 12%, NAVI14 - 14%, GPS15 - 15%, CAPTAIN16 - 16%, BAIT17 - 17%, RUDDER18 - 18%, SONAR19 - 19%, SHARKPRO20 - 20%, 
 
 ## Бележка за имейла
 В тази версия сайтът **не изпраща автоматично имейл от сървъра**. Използва се временен вариант:
