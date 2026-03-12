@@ -41,15 +41,11 @@
 
 Можеш и просто да замениш файл със същото име.
 
-## Как да deploy-неш в Cloudflare Pages
-### Вариант с GitHub
-1. Качи съдържанието на това repo в ново GitHub repository: `SharkPilot-store`
-2. В Cloudflare Pages създай **нов project**
-3. Свържи GitHub repo-то
-4. Използвай:
-   - **Framework preset:** `None`
-   - **Build command:** празно
-   - **Build output directory:** `public`
+## Статуси 
+    "stockStatus": "in_stock", "on_request",
+    "badge": "best_seller", "new", "none",
+    "featured": true, false,
+    "newProduct": true, false,
 
 ## Бележка за имейла
 В тази версия сайтът **не изпраща автоматично имейл от сървъра**. Използва се временен вариант:
